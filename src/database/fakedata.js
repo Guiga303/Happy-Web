@@ -15,8 +15,8 @@ module.exports = [
     },
     {
         id: 2,
-        lat: "-27.0151187",
-        lng: "-49.8953852",
+        lat: "-22.019966",
+        lng: "-47.896597",
         name: "Lar dos Meninos",
         description: "Presta porra nenhuma",
         images: [
