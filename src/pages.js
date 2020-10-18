@@ -86,4 +86,12 @@ module.exports = {
         return res.render('register')
     },
 
+    forgotPassword(req, res) {
+        return res.render('forgot-password')
+    },
+
+    resetPassword(req, res) {
+        return res.render('reset-password')
+    }
+
 }

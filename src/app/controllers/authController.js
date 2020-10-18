@@ -90,8 +90,10 @@ router.post('/forgot_password', async (req, res) => {
             }
             return res.send();
         })
+        console.log('Deu certo')
     } catch {
         res.status(400).send({ error: 'Error on forgot password, try again' });
+        console.log('Deu errado')
     }
 })
 

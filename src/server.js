@@ -29,6 +29,8 @@ server
     .post('/save-orphanage', pages.saveOrphanage)
     .get('/login', pages.login)
     .get('/new-register', pages.register)
+    .get('/forgot-password', pages.forgotPassword)
+    .get('/reset-password', pages.resetPassword)
 
 require('./app/controllers/index.js')(server);
 
