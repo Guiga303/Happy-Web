@@ -2,6 +2,7 @@
 Site para integrar voluntários a orfanatos.
 Precisa intalar essas dependencias:
 bcryptjs fs jsonwebtoken mongoose nodemailer nodemailer-express-handlebars path body-parser express hbs nodemon sqlite-async
+    
     "bcryptjs": "^2.4.3",
     "fs": "0.0.1-security",
     "jsonwebtoken": "^8.5.1",
