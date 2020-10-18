@@ -1,11 +1,16 @@
 // importar dependencia
 const express = require('express');
 const path = require('path');
-const pages = require('./pages.js')
+const pages = require('./pages.js');
+const bodyParser = require('body-parser');
 
 // iniciando o express
 const server = express()
 server
+    // utilizando o bodyparser
+    .use(bodyParser.json())
+    .use(bodyParser.urlencoded({ extended: false }))
+
     // utilizar body do req
     .use(express.urlencoded({ extended: true }))
 
@@ -23,6 +28,9 @@ server
     .get('/create-orphanage', pages.createOrphanage)
     .post('/save-orphanage', pages.saveOrphanage)
     .get('/login', pages.login)
+    .get('/new-register', pages.register)
+
+require('./app/controllers/index.js')(server);
 
 // ligar o servidor
 server.listen(5500)

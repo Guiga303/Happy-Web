@@ -1,95 +1,22 @@
-/* geral */
-
-a {
-    font-size: .8rem;
+#page-login {
+    display: flex;
+    min-width: 100vh;
 }
 
-a:hover {
-    color: #08558b;
-}
-
-/* container login */
-
-#login-container {
-    background-color: #FFF;
-    border-radius: 10px;
-}
-
-/* formulário */
-
-form {
-    margin-top: 30px;
-    margin-bottom: 40px;
-}
-
-label, input {
-    display: block;
-    width: 100%;
-    text-align: left;
-}
-
-label {
-    font-weight: bold;
-    font-size: .8rem;
-}
-
-input {
-    border-bottom: 2px solid #323232;
-    padding: 10px;
-    font-size: 1rem;
-    margin-bottom: 20px;
-}
-
-input:focus {
-    border-bottom: 2px solid #08558b;
+main {
+    flex: 1;
 }
 
 #forgot-pass {
     text-align: right;
-    display: block;
 }
 
-input[type="submit"] {
+p {
     text-align: center;
-    text-transform: uppercase;
-    font-weight: bold;
-    border: none;
-    height: 40px;
-    border-radius: 20px;
-    margin-top: 30px;
-    color: #FFF;
-    background-color: #08558b;
-    cursor: pointer;
+    margin-top: 10rem;
+    color: black;
 }
 
-input[type="submit"]:hover {
-    background-color: #1b223c;
-    transition: .5s;
+#register-button {
+    margin-top: 2rem;
 }
-
-/* redes sociais */
-
-#social-container img {
-    width: 40px;
-    height: 40px;
-    cursor: pointer;
-}
-
-#social-container img:first-child {
-    margin-right: 20px;
-}
-
-#social-container img:last-child {
-    margin-left: 20px;
-}
-
-#social-container, #social-container p {
-    margin-bottom: 20px;
-}
-
-/* registrar */
-
-#register-container p {
-    margin-bottom: 10px;
-}
-

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login | Happy</title>
+    <title>Cadastro | Happy</title>
 
     <link rel="icon" href="/images/logo-icon.png" />
     <link rel="stylesheet" href="/css/main.css" />
@@ -37,7 +37,12 @@
             
                 <form action="">
                     <fieldset>
-                        <legend>Login</legend>
+                        <legend>Cadastro</legend>
+
+                        <div class="input-block">
+                            <label for="name">Nome completo</label>
+                            <input type="text" name="name" id="name" placeholder="Digite seu nome completo" required>
+                        </div>
                         
                         <div class="input-block">
                             <label for="email">E-mail</label>
@@ -49,14 +54,8 @@
                             <input type="password" name="password" id="password" placeholder="Digite a sua senha" required>
                         </div>
                         
-                        <a href="#" id="forgot-pass">Esqueceu a senha?</a>
+                        <button type="submit" class="primary-button" id="login-button">Cadastrar</button>
 
-                        <button type="submit" class="primary-button" id="login-button">Login</button>
-
-                        <div id="register-container">
-                            <p>Ainda não tem uma conta?</p>
-                            <a href="/register" class="primary-button" id="register-button">Cadastre-se</a>
-                        </div>
                     </fieldset>
                 </form>
             

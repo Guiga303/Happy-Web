@@ -43,9 +43,7 @@ function addPhotoField() {
     // verificar se o campo está vazio, se sim, não adicionar ao container de imagens
     const input = newFieldContainer.children[0]
 
-    if(input.value == "") {
-        return
-    }
+    if(input.value == "") return
 
     // limpar o campo antes de adicionar ao container de imagens
     input.value = ""
