@@ -9,7 +9,6 @@ bcryptjs fs jsonwebtoken mongoose nodemailer nodemailer-express-handlebars path 
     "nodemailer": "^6.4.14",
     "nodemailer-express-handlebars": "^4.0.0",
     "path": "^0.12.7"
-
     "body-parser": "^1.19.0",
     "express": "^4.17.1",
     "hbs": "^4.1.1",
